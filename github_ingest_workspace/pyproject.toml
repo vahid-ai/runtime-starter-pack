@@ -4,9 +4,10 @@ version = "0.1.0"
 description = "GitHub ingest workspace with job decorators and deployment"
 requires-python = ">=3.12"
 dependencies = [
-    "dlt[motherduck,workspace,hub]>=1.26.0",
-    "duckdb<1.4.3",
+    "dlt[motherduck,parquet,hub]>=1.27.0",
     "altair>=6.0.0",
+    "ibis-framework>=10.0.0",
+    "pydbml>=1.2.0",
 ]
 
 [tool.uv.sources]
