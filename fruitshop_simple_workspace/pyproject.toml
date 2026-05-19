@@ -4,9 +4,11 @@ version = "0.1.0"
 description = "Simple dlt workspace with a single pipeline and notebook"
 requires-python = ">=3.12"
 dependencies = [
-    "dlt[motherduck,workspace,hub]>=1.26.0",
+    "dlt[motherduck,parquet,hub]>=1.27.0",
     "duckdb<1.4.3",
     "marimo>=0.23.3",
+    "ibis-framework>=10.0.0",
+    "pydbml>=1.2.0",
 ]
 
 [tool.uv.sources]
