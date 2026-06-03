@@ -248,7 +248,7 @@ wheels = [
 
 [[package]]
 name = "dlthub-client"
-version = "0.27.0"
+version = "0.27.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "attrs" },
@@ -259,9 +259,9 @@ dependencies = [
     { name = "pyjwt" },
     { name = "tabulate" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5f/4c/1bf717620f937901b5b23d4385440def4b1eeeb41c2bb7ba3e1bcfebf2bf/dlthub_client-0.27.0.tar.gz", hash = "sha256:cd0eb7c36971c357999d79dd5bdfad03cc7492bc32db3bf1ee2719938a4e1e49", size = 130738, upload-time = "2026-05-18T15:59:13.618Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/59/d8/8e2ee48e8183d656e17ddd624899416842c38e453d4542a9ae5ada562d17/dlthub_client-0.27.4.tar.gz", hash = "sha256:1807fad3c9b07536c7527bae2cd1cae3a66e26dea8afed6bfa5e1a79bfab13da", size = 132162, upload-time = "2026-06-03T16:17:55.65Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/75/d9/bb355466148889429eb54644a8273b2df061baaa228e2f8aa4cb7f1552b3/dlthub_client-0.27.0-py3-none-any.whl", hash = "sha256:1e6bd0af61c75cffdca6b9104f771cf483c7a5f2697ec81fa828580c6e5c35e4", size = 288837, upload-time = "2026-05-18T15:59:11.334Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/65/c3102130f0fddc9be595270e1fd298a9d05e2178fad36b3e982dc4c50b47/dlthub_client-0.27.4-py3-none-any.whl", hash = "sha256:27578fb1d6e30ae488b0f2f348b34a0eabf0a94ad87031062f2ef463f1adeb7e", size = 291934, upload-time = "2026-06-03T16:17:54.241Z" },
 ]
 
 [[package]]
